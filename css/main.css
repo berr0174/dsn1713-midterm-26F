@@ -3,11 +3,53 @@
 /* Set custom variables here */
 
 
+:root {
+  
+  --dd-body: #F6F3ED;
+  
+  --dd-green: #2e483a;
+  --dd-green-rgb: 46, 72, 58;
 
+  --dd-light: #f6f3ed;
+  /* --dd-light-rgb: 246, 243, 237; */
+
+  --bs-body-bg: var(--dd-body);
+
+  --bs-primary: var(--dd-green);
+  --bs-primary-rgb: var(--dd-green-rgb);
+  
+ 
+
+  --bs-light: var(--dd-light);
+  /* --bs-light-rgb: var(--bs-light-rgb); */
+
+}
+
+.border-top {
+   --bs-border-color: var(--dd-green);
+}
+
+.btn-primary {
+    --bs-btn-color:  var(--dd-light);
+    --bs-btn-bg: var(--dd-green);
+    --bs-btn-border-color: var(--dd-green);
+    --bs-btn-hover-color: var(--dd-light);
+    --bs-btn-hover-bg: var(--dd-green);
+    --bs-btn-hover-border-color: var(--dd-green);
+    --bs-btn-focus-shadow-rgb: 49,132,253;
+    --bs-btn-active-color: var(--dd-light);
+    --bs-btn-active-bg: var(--dd-green);
+    --bs-btn-active-border-color: var(--dd-green);
+    --bs-btn-active-shadow: inset 0 3px 5px rgba(0, 0, 0, 0.125);
+    --bs-btn-disabled-color: var(--dd-light);
+    --bs-btn-disabled-bg: var(--dd-green);
+    --bs-btn-disabled-border-color: var(--dd-green);
+}
 
 
 .navbar-brand {
   color: #F6F3ED;
+  width: 40px;
 }
 
 body {
